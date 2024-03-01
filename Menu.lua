@@ -9,5 +9,4 @@ elseif PlaceId == 4442272183 then -- Blox
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Bloxf.lua"))()
 elseif PlaceId == 7449423635 then -- Blox 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Bloxf.lua"))()
-game.Players.LocalPlayer:Kick("jogo nao suportado")
 end
