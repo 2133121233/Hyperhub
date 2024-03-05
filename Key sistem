@@ -107,7 +107,7 @@ VerifyButton.MouseButton1Down:connect(function()
 		GUI.Parent = nil
 
 
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Menu.lua")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/DISTRIBUTOR.lua")
 	end
 end)
 
