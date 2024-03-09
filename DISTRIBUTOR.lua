@@ -1,7 +1,7 @@
 local PlaceId = game.PlaceId
-if PlaceId == 6284583030 then -- PSX 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Bloxf.lua"))()
-elseif PlaceId == 7722306047 then -- PSX 
+if PlaceId == 13772394625 then -- Blade
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Test/main/bladeball.lua"))()
+elseif PlaceId == 789768866 then -- PSX 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Bloxf.lua"))()
 elseif PlaceId == 2753915549 then -- Blox 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/Bloxf.lua"))()
