@@ -43,7 +43,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddTextbox({
 	Name = "Enter Key",
-	Default = "https://direct-link.net/1128702/hyper-hub-key-aistem",
+	Default = "coloque aqui!",
 	TextDisappear = true,
 	Callback = function(Value)
         _G.KeyInput = Value
@@ -59,5 +59,12 @@ Tab:AddButton({
      else
         WrongKeyNotifications()
         end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Copy Key",
+	Callback = function()
+      		setclipboard("https://direct-link.net/1128702/hyper-hub-key-aistem") --This Will Copy The Link Of The Key
   	end    
 })
