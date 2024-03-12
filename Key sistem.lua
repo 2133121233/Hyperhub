@@ -36,7 +36,7 @@ function WrongKeyNotifications()
 end
 
 local Tab = Window:MakeTab({
-	Name = "Key Room",
+	Name = "Key Tab",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -67,4 +67,12 @@ Tab:AddButton({
 	Callback = function()
       		setclipboard("https://direct-link.net/1128702/hyper-hub-key-aistem") --This Will Copy The Link Of The Key
   	end    
+})
+
+Tab:AddButton({
+	Name = "Dev Contact",
+	Callback = function()
+      		setclipboard("Discord: sanjirebaixado#8452") --This Will Copy The Contact
+  	end    
+
 })
