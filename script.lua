@@ -100,13 +100,13 @@ end)
 CheckKey.MouseButton1Click:Connect(function()
     local LibVersion = "v2"
     local LibType = "roblox"
-    local ServiceID = "seuServico"
+    local ServiceID = "hyperhub"
     local PandaAuth = loadstring(game:HttpGet('https://pandadevelopment.cloud/servicelib?service='..ServiceID..'&core='..LibType..'&param='..LibVersion))()
     
     PandaAuth:GetKey(ServiceID)
     
     if PandaAuth:ValidateKey(ServiceID, KeyHere.Text) then
-        --seu script aqui
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyperhub/main/DISTRIBUTOR.lua")
         Main:Destroy()
     else
         print('not authenticated')
@@ -116,7 +116,7 @@ end)
 GetKey.MouseButton1Click:Connect(function()
     local LibVersion = "v2"
     local LibType = "roblox"
-    local ServiceID = "SeuServiceId"
+    local ServiceID = "hyperhub"
     local PandaAuth = loadstring(game:HttpGet('https://pandadevelopment.cloud/servicelib?service='..ServiceID..'&core='..LibType..'&param='..LibVersion))()
     
     setclipboard(PandaAuth:GetKey(ServiceID))
