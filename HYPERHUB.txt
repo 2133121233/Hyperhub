@@ -1,5 +1,7 @@
-local Main = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")local TitleFrame = Instance.new("Frame")
+local Main = Instance.new("ScreenGui")
+
+local MainFrame = Instance.new("Frame")local TitleFrame = Instance.new("Frame")
+
 local OgeidXFrost = Instance.new("TextLabel")
 local CloseGui = Instance.new("TextButton")
 local KeyHere = Instance.new("TextBox")
@@ -105,7 +107,7 @@ CheckKey.MouseButton1Click:Connect(function()
     PandaAuth:GetKey(ServiceID)
     
     if PandaAuth:ValidateKey(ServiceID,KeyHere.Text) then
-        --local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+        local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -6386,7 +6388,8 @@ Tabs.Misc:AddButton({
 		game.Players.localPlayer.PlayerGui.Main.Titles.Visible = true
 	end
 })
-end
+end
+
 end)
 
 GetKey.MouseButton1Click:Connect(function()
